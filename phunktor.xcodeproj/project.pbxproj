@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		71569E860F30D3040026193D /* PhunkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71569E850F30D3040026193D /* PhunkController.m */; };
+		71569F3D0F3226220026193D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71569F3C0F3226220026193D /* WebKit.framework */; };
+		71569FBE0F324D5D0026193D /* JSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71569FBD0F324D5D0026193D /* JSTextView.m */; };
+		715845E30F3DB64D00B103EE /* PhunkDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 715845E20F3DB64D00B103EE /* PhunkDocument.m */; };
+		717592DD0F3E017B00316808 /* VVOSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717592DC0F3E017B00316808 /* VVOSC.framework */; };
+		717592E00F3E018E00316808 /* VVOSC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 717592DC0F3E017B00316808 /* VVOSC.framework */; };
+		717592E70F3E041D00316808 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717592E60F3E041D00316808 /* AudioToolbox.framework */; };
+		718296FF0F3DE988005E0660 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 718296FE0F3DE988005E0660 /* README */; };
+		718297040F3E004A005E0660 /* JSClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 718297030F3E004A005E0660 /* JSClock.m */; };
+		71AE76330F3F3D4600B12EC0 /* AudioDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AE76320F3F3D4600B12EC0 /* AudioDevices.m */; };
+		71AE76450F3F3E1900B12EC0 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AE76440F3F3E1900B12EC0 /* CoreAudio.framework */; };
+		71CDBA910F3DB4EE00F6CCD5 /* PhunkDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CDBA8F0F3DB4EE00F6CCD5 /* PhunkDocument.xib */; };
+		71E8C94B0F35B94B00B0D9BC /* JSTimeout.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E8C94A0F35B94B00B0D9BC /* JSTimeout.m */; };
+		71E8C9BE0F35D5AE00B0D9BC /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E8C9BD0F35D5AE00B0D9BC /* JavaScriptCore.framework */; };
+		71FBB2410F3649C3004537AC /* JSOSC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FBB2400F3649C3004537AC /* JSOSC.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71966B990F32668300F23058 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				717592E00F3E018E00316808 /* VVOSC.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* phunktor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phunktor_Prefix.pch; sourceTree = "<group>"; };
+		71569E840F30D3040026193D /* PhunkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhunkController.h; sourceTree = "<group>"; };
+		71569E850F30D3040026193D /* PhunkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhunkController.m; sourceTree = "<group>"; };
+		71569F3C0F3226220026193D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		71569FBC0F324D5D0026193D /* JSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTextView.h; sourceTree = "<group>"; };
+		71569FBD0F324D5D0026193D /* JSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTextView.m; sourceTree = "<group>"; };
+		715845E10F3DB64D00B103EE /* PhunkDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhunkDocument.h; sourceTree = "<group>"; };
+		715845E20F3DB64D00B103EE /* PhunkDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhunkDocument.m; sourceTree = "<group>"; };
+		717592DC0F3E017B00316808 /* VVOSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVOSC.framework; path = "../vvosc-git/build/Release/VVOSC.framework"; sourceTree = SOURCE_ROOT; };
+		717592E60F3E041D00316808 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		718296FE0F3DE988005E0660 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		718297020F3E004A005E0660 /* JSClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSClock.h; sourceTree = "<group>"; };
+		718297030F3E004A005E0660 /* JSClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSClock.m; sourceTree = "<group>"; };
+		71AE76310F3F3D4600B12EC0 /* AudioDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDevices.h; sourceTree = "<group>"; };
+		71AE76320F3F3D4600B12EC0 /* AudioDevices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioDevices.m; sourceTree = "<group>"; };
+		71AE76440F3F3E1900B12EC0 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		71CDBA900F3DB4EE00F6CCD5 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PhunkDocument.xib; sourceTree = "<group>"; };
+		71E8C9490F35B94B00B0D9BC /* JSTimeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTimeout.h; sourceTree = "<group>"; };
+		71E8C94A0F35B94B00B0D9BC /* JSTimeout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTimeout.m; sourceTree = "<group>"; };
+		71E8C9BD0F35D5AE00B0D9BC /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = /System/Library/Frameworks/JavaScriptCore.framework; sourceTree = "<absolute>"; };
+		71FBB23F0F3649C3004537AC /* JSOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSOSC.h; sourceTree = "<group>"; };
+		71FBB2400F3649C3004537AC /* JSOSC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSOSC.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* phunktor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phunktor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				71569F3D0F3226220026193D /* WebKit.framework in Frameworks */,
+				71E8C9BE0F35D5AE00B0D9BC /* JavaScriptCore.framework in Frameworks */,
+				717592DD0F3E017B00316808 /* VVOSC.framework in Frameworks */,
+				717592E70F3E041D00316808 /* AudioToolbox.framework in Frameworks */,
+				71AE76450F3F3E1900B12EC0 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				718297020F3E004A005E0660 /* JSClock.h */,
+				718297030F3E004A005E0660 /* JSClock.m */,
+				71FBB23F0F3649C3004537AC /* JSOSC.h */,
+				71FBB2400F3649C3004537AC /* JSOSC.m */,
+				71E8C9490F35B94B00B0D9BC /* JSTimeout.h */,
+				71E8C94A0F35B94B00B0D9BC /* JSTimeout.m */,
+				71569FBC0F324D5D0026193D /* JSTextView.h */,
+				71569FBD0F324D5D0026193D /* JSTextView.m */,
+				71569E840F30D3040026193D /* PhunkController.h */,
+				71569E850F30D3040026193D /* PhunkController.m */,
+				715845E10F3DB64D00B103EE /* PhunkDocument.h */,
+				715845E20F3DB64D00B103EE /* PhunkDocument.m */,
+				71AE76310F3F3D4600B12EC0 /* AudioDevices.h */,
+				71AE76320F3F3D4600B12EC0 /* AudioDevices.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71AE76440F3F3E1900B12EC0 /* CoreAudio.framework */,
+				717592E60F3E041D00316808 /* AudioToolbox.framework */,
+				717592DC0F3E017B00316808 /* VVOSC.framework */,
+				71E8C9BD0F35D5AE00B0D9BC /* JavaScriptCore.framework */,
+				71569F3C0F3226220026193D /* WebKit.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* phunktor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* phunktor */ = {
+			isa = PBXGroup;
+			children = (
+				718296FC0F3DE94E005E0660 /* Documentation */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = phunktor;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* phunktor_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				71CDBA8F0F3DB4EE00F6CCD5 /* PhunkDocument.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		718296FC0F3DE94E005E0660 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				718296FE0F3DE988005E0660 /* README */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* phunktor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "phunktor" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				71966B990F32668300F23058 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = phunktor;
+			productInstallPath = "$(HOME)/Applications";
+			productName = phunktor;
+			productReference = 8D1107320486CEB800E47090 /* phunktor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "phunktor" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* phunktor */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* phunktor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				71CDBA910F3DB4EE00F6CCD5 /* PhunkDocument.xib in Resources */,
+				718296FF0F3DE988005E0660 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				71569E860F30D3040026193D /* PhunkController.m in Sources */,
+				71569FBE0F324D5D0026193D /* JSTextView.m in Sources */,
+				71E8C94B0F35B94B00B0D9BC /* JSTimeout.m in Sources */,
+				71FBB2410F3649C3004537AC /* JSOSC.m in Sources */,
+				715845E30F3DB64D00B103EE /* PhunkDocument.m in Sources */,
+				718297040F3E004A005E0660 /* JSClock.m in Sources */,
+				71AE76330F3F3D4600B12EC0 /* AudioDevices.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		71CDBA8F0F3DB4EE00F6CCD5 /* PhunkDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71CDBA900F3DB4EE00F6CCD5 /* English */,
+			);
+			name = PhunkDocument.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ext/vvosc/build/Debug\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../vvosc/build/Release\"",
+					"\"$(SRCROOT)/../vvosc-git/build/Release\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = phunktor_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = phunktor;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ext/vvosc/build/Debug\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../vvosc/build/Release\"",
+					"\"$(SRCROOT)/../vvosc-git/build/Release\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = phunktor_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = phunktor;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "phunktor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "phunktor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
